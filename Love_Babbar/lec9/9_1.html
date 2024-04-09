@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <fieldset>
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="text" name="email" id="email">
+
+    <br>
+    <br>
+    <label for="phone">
+        Enter your phone number:<br />
+        <small>Format: 123-456-7890</small>
+      </label>
+        <br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+
+    <br>
+    <br>
+    <label for="date">Select Date:</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <br>
+    <label for="occ">Occupation:</label>
+    <br>
+    <select name="occupation" id="occ">
+        <option value="others">Others</option>
+        <option value="engineer">Engineer</option>
+        <option value="doctor">Doctor</option>
+    </select>
+    <br>
+    <br>
+    <label for="file">Upload Identity Proof:</label>
+    <input type="file" name="file" id="file">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Topics of Interest:</legend>
+        <input type="checkbox" id="html">
+        <br>
+        <label for="html">HTML</label>
+        <br>
+        <br>
+        <input type="checkbox" id="css">
+        <br>
+        <label for="css">CSS</label>
+        <br>
+        <br>
+        <input type="checkbox" id="javascript">
+        <br>
+        <label for="javascript">JavaScript</label>
+    </fieldset>
+    
+    <br>
+
+    <label for="comments">Comments:</label>
+    <br>
+    <textarea name="comments" id="comments" cols="40" rows="8"></textarea>
+
+    <br>
+
+    <input type="button" value="Register">
+</fieldset>
+
+</body>
+</html>
